@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Texas Poker</string>
+    <string name="app_version">v1.0.0</string>
+
+    <!-- Auth -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="username">用户名</string>
+    <string name="guest_login">访客登录</string>
+
+    <!-- Lobby -->
+    <string name="cash_game">现金局</string>
+    <string name="tournament">锦标赛</string>
+    <string name="sit_and_go">坐就走</string>
+    <string name="leaderboard">排行榜</string>
+
+    <!-- Game -->
+    <string name="fold">弃牌</string>
+    <string name="check">过牌</string>
+    <string name="call">跟注</string>
+    <string name="raise">加注</string>
+    <string name="all_in">全下</string>
+    <string name="pot">底池</string>
+    <string name="my_chips">我的筹码</string>
+
+    <!-- Actions -->
+    <string name="join">加入</string>
+    <string name="leave">离开</string>
+    <string name="settings">设置</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="back">返回</string>
+    <string name="logout">退出登录</string>
+
+    <!-- Settings -->
+    <string name="sound_effects">音效</string>
+    <string name="background_music">背景音乐</string>
+    <string name="vibration">震动</string>
+    <string name="ai_difficulty">AI难度</string>
+
+    <!-- AI difficulty -->
+    <string-array name="ai_difficulty_options">
+        <item>新手</item>
+        <item>中级</item>
+        <item>高级</item>
+        <item>专家</item>
+    </string-array>
+</resources>

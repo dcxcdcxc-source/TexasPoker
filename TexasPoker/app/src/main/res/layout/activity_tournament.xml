@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 锦标赛名称 -->
+        <TextView
+            android:id="@+id/tvTournamentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每日锦标赛"
+            android:textSize="24sp"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvBuyIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="买入: 1000"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvPrizePool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="奖金池: 80K"
+            android:textSize="16sp"
+            android:textColor="#FF6600"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- 盲注结构 -->
+        <androidx.cardview.widget.CardView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/bg_card"
+            app:cardCornerRadius="8dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvBlindStructure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:padding="16dp"
+                android:fontFamily="monospace"/>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnStartTournament"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="开始比赛"
+            android:textSize="18sp"
+            android:backgroundTint="@color/gold"
+            android:textColor="@color/bg_dark"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="返回"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>

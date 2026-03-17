@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="坐就走 (SnG)"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSng1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="单挑"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#1565C0"/>
+
+    <Button
+        android:id="@+id/btnSng2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="6人SnG"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#2E7D32"/>
+
+    <Button
+        android:id="@+id/btnSng3"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="9人SnG"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#6A1B9A"/>
+
+    <Button
+        android:id="@+id/btnSng4"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="迅速SnG"
+        android:textSize="16sp"
+        android:backgroundTint="#BF360C"/>
+</LinearLayout>
